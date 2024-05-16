@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Timeline-Form/static/css/main.0068f275.css",
+    "main.js": "/Timeline-Form/static/js/main.698f71c1.js",
+    "static/media/banner.png": "/Timeline-Form/static/media/banner.28fc16028191126ed7ce.png",
+    "index.html": "/Timeline-Form/index.html",
+    "main.0068f275.css.map": "/Timeline-Form/static/css/main.0068f275.css.map",
+    "main.698f71c1.js.map": "/Timeline-Form/static/js/main.698f71c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0068f275.css",
+    "static/js/main.698f71c1.js"
+  ]
+}
