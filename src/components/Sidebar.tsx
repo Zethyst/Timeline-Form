@@ -20,15 +20,15 @@ function Sidebar() {
     <div className=' bg-[#FFD098] w-72 mt-28 p-5 py-10 m-10 rounded-2xl flex flex-col justify-center items-start'>
         <h1 className='text-[#121212] text-2xl font-semibold text-start mb-2'>Partner with us</h1>
         <p className='text-[#12121291] w-64 text-sm mb-6'>Be our partner in just few steps and start Increasing your reach by gaining new customers.</p>
-        <Link to='/' className='flex gap-5 cursor-pointer'>
+        <Link to='/Timeline-Form' className='flex gap-5 cursor-pointer'>
             <div className={`rounded-full p-5 w-12 h-12 flex justify-center items-center font-semibold ${currentStep>=1?"text-white bg-[#DC3545]":"text-[#121212b5] bg-[#FFFFFF]"}`}>1</div>
             <p className='font-semibold text-center flex justify-center items-center mb-1'>Business Information</p>
         </Link>
         <div  className={`h-9 border-l-2 border-dashed p-1 translate-x-6 ${currentStep>=2?"border-[#dc35467d]":"border-[#12121222]"}`}></div>
-        <Link to='/owner' onClick={handleClick} className='flex gap-5 cursor-pointer'>
+        <div className='flex gap-5 cursor-pointer'>
             <div className={`rounded-full p-5 w-12 h-12 flex justify-center items-center font-semibold ${currentStep>=2?"text-white bg-[#DC3545]":"text-[#121212b5] bg-[#FFFFFF]"}`}>2</div>
             <p className='font-semibold text-center flex justify-center items-center mb-1 w-48 -translate-x-2'>Owner / Manager Details</p>
-        </Link>
+        </div>
         <div className={`h-9 border-l-2 border-dashed p-1 translate-x-6 ${currentStep>=3?"border-[#dc35467d]":"border-[#12121222]"}`}></div>
         <div className='flex gap-5 cursor-pointer'>
             <div className={`rounded-full p-5 w-12 h-12 flex justify-center items-center font-semibold ${currentStep>=3?"text-white bg-[#DC3545]":"text-[#121212b5] bg-[#FFFFFF]"}`}>3</div>
