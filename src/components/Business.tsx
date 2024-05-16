@@ -55,7 +55,7 @@ function Business() {
 
   const handleOTPEmail = async () => {
     try {
-      let data = await axios.post("http://localhost:5000/api/auth/sendmail", {
+      let data = await axios.post("https://timeline-form-backend.onrender.com/api/auth/sendmail", {
         email: formData.email,
       });
       if (data.status==200) {

@@ -1,7 +1,6 @@
 {
   "name": "cookie-form",
   "version": "0.1.0",
-  "homepage": "https://Zethyst.github.io/Timeline-Form",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -31,8 +30,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -60,7 +57,6 @@
     "@types/nodemailer": "^6.4.15",
     "@types/react-redux": "^7.1.33",
     "autoprefixer": "^10.4.19",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3"
   }
