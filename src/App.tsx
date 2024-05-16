@@ -11,7 +11,7 @@ function App() {
     <Banner/>
     <Sidebar/>
       <Routes>
-        <Route path='/' element={<Business/>}/>
+        <Route path='/Timeline-Form' element={<Business/>}/>
         <Route path='/owner' element={<Owner/>}/>
       </Routes> 
     </BrowserRouter>

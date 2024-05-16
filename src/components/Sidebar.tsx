@@ -24,8 +24,8 @@ function Sidebar() {
             <div className={`rounded-full p-5 w-12 h-12 flex justify-center items-center font-semibold ${currentStep>=1?"text-white bg-[#DC3545]":"text-[#121212b5] bg-[#FFFFFF]"}`}>1</div>
             <p className='font-semibold text-center flex justify-center items-center mb-1'>Business Information</p>
         </Link>
-        <div onClick={handleClick} className={`h-9 border-l-2 border-dashed p-1 translate-x-6 ${currentStep>=2?"border-[#dc35467d]":"border-[#12121222]"}`}></div>
-        <Link to='/owner' className='flex gap-5 cursor-pointer'>
+        <div  className={`h-9 border-l-2 border-dashed p-1 translate-x-6 ${currentStep>=2?"border-[#dc35467d]":"border-[#12121222]"}`}></div>
+        <Link to='/owner' onClick={handleClick} className='flex gap-5 cursor-pointer'>
             <div className={`rounded-full p-5 w-12 h-12 flex justify-center items-center font-semibold ${currentStep>=2?"text-white bg-[#DC3545]":"text-[#121212b5] bg-[#FFFFFF]"}`}>2</div>
             <p className='font-semibold text-center flex justify-center items-center mb-1 w-48 -translate-x-2'>Owner / Manager Details</p>
         </Link>
